@@ -8,7 +8,6 @@ class gitHook {
     public function run($payload) {
 
         // read config.json
-        
         if (!file_exists($this->config_filename)) {
             throw new Exception("Can't find ".$this->config_filename);
         }
