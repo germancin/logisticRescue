@@ -17,3 +17,5 @@
 /logs/*
 !/logs/empty
 
+/webroot/github/logs.txt
+
