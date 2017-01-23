@@ -94,7 +94,7 @@ class gitHook {
                     $body .= '</ul>';
                     $body .= '<p>Deploy date: ' . $commit[0]['timestamp'] . '</p>';
                     $body .= '<p>Cheers, <br/>Github Webhook Endpoint</p>';
-                    $msg = 'jengibreLs has been deployed ' . $commit[0]['id'];
+                    $msg = 'LogisticRescue.org has been deployed ' . $commit[0]['id'];
                     mail($config['email']['to'], $msg, $body, $headers);
                 }
 
