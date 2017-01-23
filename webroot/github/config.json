@@ -1,0 +1,14 @@
+{
+    "email": {
+        "from": "github-hook@logisticRescue.org",
+        "to": "deploy@logisticRescue.org"
+    },
+    "endpoints": [
+        {
+            "repo": "germancin/logisticRescue",
+            "branch": "master",
+            "action": "something has been changed on the server",
+            "run": "script.sh"
+        }
+    ]
+}
