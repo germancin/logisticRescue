@@ -40,6 +40,14 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
     <?= $this->Html->css('cake.css') ?>
     <?= $this->Html->css('home.css') ?>
     <link href="https://fonts.googleapis.com/css?family=Raleway:500i|Roboto:300,400,700|Roboto+Mono" rel="stylesheet">
+
+    <script type="text/javascript"> 
+        //<![CDATA[ 
+        var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+        document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+        //]]>
+    </script>
+
 </head>
 <body class="home">
 
@@ -270,6 +278,12 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         </ul>
     </div>
 </div>
-<img src="/img/comodo_secure_seal_113x59_transp.png"/>
+    
+    
+    <script language="JavaScript" type="text/javascript">
+    TrustLogo("http://logisticrescue.org/img/comodo_secure_seal_113x59_transp.png", "CL1", "none");
+    </script>
+    <a  href="https://www.positivessl.com/" id="comodoTL">Positive SSL</a>
+
 </body>
 </html>
